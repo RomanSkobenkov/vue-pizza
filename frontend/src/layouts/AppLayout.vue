@@ -1,10 +1,12 @@
-<script setup></script>
-
 <template>
   <div class="app_layout">
-    <app-layout-header />
+    <app-header />
     <slot />
   </div>
 </template>
+
+<script setup>
+import AppHeader from "./AppHeader.vue";
+</script>
 
 <style scoped lang="scss"></style>
